@@ -1,0 +1,63 @@
+body{
+    background-image: url("images/back.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 10px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    margin-right: 10px;
+}
+input{
+    margin-right: 10px;
+}
+img{
+  display: inline-block;
+  margin: 0 ;
+  max-width: 50%;
+}
+.degree{
+    font-size: 50px;
+    font-weight:lighter;
+}
+.degree-sign{
+    font-size: 15px;
+    font-weight:lighter;
+    position: relative;
+    top: -26px;
+}
+.card-text{
+text-align: left;
+font-family:sans-serif;
+}
+.card-body{
+    padding: 10px;
+   
+}
+.temp{
+display: inline;
+list-style: none;
+font-size: 20px;
+}
+.searchBar{
+    margin-right: 0;
+}
+.card{
+    background-color: rgba(246, 214, 239, 0.5);
+    
+}
+.next-day{
+    text-align: center;
+}
+.tomorrow{
+    display: inline-block;
+    margin:0;
+    max-width:45%;
+}
