@@ -61,3 +61,12 @@ font-size: 20px;
     margin:0;
     max-width:45%;
 }
+.active {
+    color: #142d4c;
+    cursor: default;
+    font-weight: bold;
+  }
+  
+  .active:hover {
+    color: black;
+  }
