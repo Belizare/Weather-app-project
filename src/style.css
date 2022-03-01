@@ -32,6 +32,7 @@ img{
     font-weight:lighter;
     position: relative;
     top: -26px;
+    text-decoration: none;
 }
 .card-text{
 text-align: left;
@@ -65,6 +66,7 @@ font-size: 20px;
     color: #142d4c;
     cursor: default;
     font-weight: bold;
+text-decoration: none;
   }
   
   .active:hover {
