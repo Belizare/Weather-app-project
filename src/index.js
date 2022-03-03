@@ -51,7 +51,6 @@ let currentTime = document.querySelector("#current-time");
 currentTime.innerHTML = formatTime();
 
 function displayWeatherCondition(response) {
-  document.querySelector("#city-name").innerHTML = response.data.name;
   celsiusTemperature =  response.data.main.temp;
   document.querySelector("#temperature").innerHTML = Math.round(celsiusTemperature);
   document.querySelector("#feels-like").innerHTML = Math.round(response.data.main.feels_like);
@@ -68,6 +67,10 @@ function displayWeatherCondition(response) {
       `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     );
 
+    let cityName = document.querySelector("#city-name");
+    cityName.innerHTML = response.data.name;
+    let countryName = document.querySelector("#country-name");
+    countryName.innerHTML = response.data.sys.country;
 }
 
 function searchCity(city) {
