@@ -3,9 +3,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+font-family: Lora;
+color: rgb(134, 134, 134);
+font-weight: bold;
 }
 h1{
-    font-family: sans-serif;
     font-size: 40px;
     color: white;
     padding-left: 10px;
@@ -23,9 +25,23 @@ img{
   margin: 0 ;
   max-width: 50%;
 }
+ul{
+position: relative;
+top: 30px;
+}
+li{
+padding-bottom: 30px;
+font-size: 25px;
+} 
 .degree{
     font-size: 50px;
     font-weight:lighter;
+    position: relative;
+    right: -33px;
+}
+.day-description{
+    position: relative;
+    right: -33px;
 }
 .degree-sign{
     font-size: 15px;
@@ -69,4 +85,13 @@ text-decoration: none;
   .active:hover {
     color: black;
   }
- 
+  .forecast-days{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgba(184, 185, 187, 0.425);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 8px rgba(114, 112, 112, 0.37);
+  }
+  
