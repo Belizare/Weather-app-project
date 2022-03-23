@@ -3,9 +3,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-font-family: Lora;
-color: rgb(134, 134, 134);
+font-family: Montserrat;
+color: rgb(252, 237, 237);
 font-weight: bold;
+text-shadow: 1px 1px 2px rgb(139, 139, 139);
 }
 h1{
     font-size: 40px;
@@ -15,7 +16,6 @@ h1{
 form {
     display: block;
     margin-top: 0em;
-    margin-right: 10px;
 }
 input{
     margin-right: 10px;
@@ -33,6 +33,13 @@ li{
 padding-bottom: 30px;
 font-size: 25px;
 } 
+time{
+    font-size: larger;
+    padding: 5px;
+    border: 1px solid rgb(252, 237, 237);
+    border-radius: 3px;
+    box-shadow: 2px 2px 8px rgba(114, 112, 112, 0.37);
+}
 .degree{
     font-size: 50px;
     font-weight:lighter;
@@ -65,10 +72,11 @@ font-size: 20px;
 }
 .searchBar{
     margin-right: 0;
+    padding: 0;
 }
 .card{
     background-color: rgba(246, 214, 239, 0.5);
-    
+    box-shadow: 2px 2px 8px rgba(114, 112, 112, 0.37);
 }
 .weather-forecast{
     display: inline-block;
@@ -94,4 +102,6 @@ text-decoration: none;
     margin-bottom: 15px;
     box-shadow: 2px 2px 8px rgba(114, 112, 112, 0.37);
   }
-  
+  .forecast-title{
+      text-align: center;
+  }
